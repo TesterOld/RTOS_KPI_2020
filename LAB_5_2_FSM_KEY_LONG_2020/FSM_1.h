@@ -12,21 +12,39 @@
 
 
 // This is for kyboard library no edit !!!!
-struct State{
-char STATE_2;//48 -2
-char STATE_RES;//55 -55 
-char STATE_0;//50 - 0 
-char STATE_SNESHINKA;//51 - 99  
-char STATE_9;//52 - 9 
-char STATE_8;//53 - 8 
-char STATE_7;//54 - 7 
-char STATE_6;//55 - 6
-char STATE_5;//56 - 5
-char STATE_4;//57 - 4 
-char STATE_3;//51 - 3
-char STATE_1;//35 -1
-				};
+//struct State{
+//char STATE_2;//48 -2
+//char STATE_RES;//55 -55 
+//char STATE_0;//50 - 0 
+//char STATE_SNESHINKA;//51 - 99  
+//char STATE_9;//52 - 9 
+//char STATE_8;//53 - 8 
+//char STATE_7;//54 - 7 
+//char STATE_6;//55 - 6
+//char STATE_5;//56 - 5
+//char STATE_4;//57 - 4 
+//char STATE_3;//51 - 3
+//char STATE_1;//35 -1
+//				};
 
+// This is for kyboard library no edit !!!!
+//const struct State NState ={'0','1','2','3','4','5','6','7','8','9','*','#' };
+
+enum State
+{
+	STATE_SNESHINKA = '*',
+	STATE_RES = '#',
+	STATE_0 = '0',
+	STATE_9 = '9',
+	STATE_8 = '8',
+	STATE_7 = '7',
+	STATE_6 = '6',
+	STATE_5 = '5',
+	STATE_4 = '4',
+	STATE_3 = '3',
+	STATE_2 = '2',
+	STATE_1 = '1'
+};
 
 
 
